@@ -17,11 +17,11 @@ My goal is not just to learn Python syntax, but to become a professional Python 
 - ✅ Input & Output
 - ✅ Type Casting
 - ✅ Arithmetic Operators
-- ⬜ Comparison Operators
-- ⬜ Logical Operators
-- ⬜ Assignment Operators
-- ⬜ Membership Operators
-- ⬜ Identity Operators
+- ✅ Comparison Operators
+- ✅ Logical Operators
+- ✅ Assignment Operators
+- ✅ Membership Operators
+- ✅ Identity Operators
 - ⬜ Bitwise Operators
 - ⬜ Conditional Statements (If / Else)
 - ⬜ Loops
