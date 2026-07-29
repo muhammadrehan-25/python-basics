@@ -1,0 +1,21 @@
+# =============== if conditions ==============
+
+#Question 1
+
+age=20
+if age >= 18:
+    print("Adult")
+
+#Question 2
+
+number = 8
+if number % 2 ==0:
+    print("Even number")
+    
+#Question 3
+
+temprature =35
+if temprature>30:
+    print("Hot wether")
+
+
