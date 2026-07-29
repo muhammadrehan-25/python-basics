@@ -22,8 +22,8 @@ My goal is not just to learn Python syntax, but to become a professional Python 
 - ✅ Assignment Operators
 - ✅ Membership Operators
 - ✅ Identity Operators
-- ⬜ Bitwise Operators
-- ⬜ Conditional Statements (If / Else)
+- ✅ Bitwise Operators
+- ✅ Conditional Statements (If / Else)
 - ⬜ Loops
 - ⬜ Functions
 - ⬜ Strings
