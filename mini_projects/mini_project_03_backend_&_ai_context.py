@@ -28,9 +28,9 @@ else:
     if user_tokens<=0:
         print("Insuficient Tokens")
     else:
-        request_eriority=input("Enter request priority  ex:('High','Medium','Low'): ").strip().lower()
+        request_periority=input("Enter request priority  ex:('High','Medium','Low'): ").strip().lower()
 
-        if request_priority == 'high':
+        if request_periority == 'high':
              print("Request Routed to Fast Track AI Pipeline")  
         else:
              print("Request Queued for Standard AI Pipeline.")
