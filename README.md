@@ -132,24 +132,6 @@ My long-term goals include:
 
 ---
 
-# 📈 Progress
-
-Current Stage:
-
-Python Fundamentals
-
-Completed:
-
-- ✅ Variables
-- ✅ Data Types
-- ✅ Input & Output
-- ✅ Type Casting
-- ✅ Arithmetic Operators
-
-Current Topic:
-
-➡️ Comparison Operators
-
 ---
 
 # 🚀 Future Projects
