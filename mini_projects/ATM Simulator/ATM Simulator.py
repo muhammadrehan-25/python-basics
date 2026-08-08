@@ -1,6 +1,5 @@
 history =[]
 balance  = 5000
-amount = 0
 pin =1234
 login = False
 for i in range(3):
@@ -29,20 +28,16 @@ if login:
             print("===================================")
             choice = int(input("Enter choice: "))
             if choice == 5:   
-                print("Thanku for using ATM.")
+                print("Thankyou for using ATM.")
                 print("-" * 35)
                 break
             if choice == 1:
-                if  balance<=0:
-                    print("Inffucient Balance,")
-                    print()
-                else:
-                    print(f"Yor balance is: {balance}")
-                    print()
+                print("Your Balance is: ",balance)
+                print("-"*35)
             elif choice == 2:
                 amount = int (input("Enter amount to deposit: "))
-                if amount>=0:
-                    balance+=amount
+                if amount > 0:
+                    balance += amount
                     history.append(f"Deposit amount: {amount}")
                     print("Deposit successfully.")
                 else:
@@ -50,10 +45,10 @@ if login:
                 
 
             elif choice == 3:
-                amount=int (input("Enter amount to withdraw"))
-                if amount<=0:
-                    print("Amount must be greater then 0")
-                elif amount>balance:
+                amount=int (input("Enter amount to withdraw: "))
+                if amount <= 0:
+                    print("Amount must be greater than 0")
+                elif amount > balance:
                     print("Insufficient balance.")
                     print()
                     
@@ -64,7 +59,7 @@ if login:
                     print()
             elif choice == 4:
                 if not history:
-                    print("No Historie Found.")
+                    print("No History Found.")
                     print()
                 else:
                     for index,transaction in enumerate(history,start=1):
