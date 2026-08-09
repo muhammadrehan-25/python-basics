@@ -24,7 +24,7 @@ My goal is not just to learn Python syntax, but to become a professional Python 
 - ✅ Identity Operators
 - ✅ Bitwise Operators
 - ✅ Conditional Statements (If / Else)
-- ⬜ Loops
+- ✅ loops
 - ⬜ Functions
 - ⬜ Strings
 - ⬜ Lists
