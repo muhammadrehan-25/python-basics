@@ -58,11 +58,33 @@ number(10,23,34,53,53,56,32)"""
     return
 even_numbers(2,3,4,5,6,8,10,11,12,14,17,20,18)"""
 
-def largest_number(*args):
+"""def largest_number(*args):
     largest=args[0]
     for i in args:
         if i > largest:
             largest = i
     return largest
 result=largest_number(1,3,5,0,19,56,78,98,78,89)
-print(result)
+print(result)"""
+
+"""def info(**kwargs):
+    for key,value in kwargs.items():
+        print(key,":",value)
+    return
+info(name="Rehan",age=21,department="Software")"""
+
+def student(name,*subjects,**details):
+    print("Name :",name)
+    print()
+    print("Skills:")
+    for i in subjects:
+        print(i)
+    print()
+    print("Info:")
+    for key,value in details.items():
+        print(key,":",value)
+    return
+student("Rehan",
+        "Python","Java","C++","DSA",
+        age=21,city="karachi",department="SE"
+        )
