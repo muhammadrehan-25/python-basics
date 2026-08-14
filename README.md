@@ -8,7 +8,7 @@ My goal is not just to learn Python syntax, but to become a professional Python 
 
 ---
 
-# 📚 Learning Roadmap
+# 📚 Learning Roadmap.
 
 ## Python Fundamentals
 
