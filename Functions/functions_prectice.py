@@ -73,7 +73,7 @@ print(result)"""
     return
 info(name="Rehan",age=21,department="Software")"""
 
-def student(name,*subjects,**details):
+"""def student(name,*subjects,**details):
     print("Name :",name)
     print()
     print("Skills:")
@@ -87,4 +87,15 @@ def student(name,*subjects,**details):
 student("Rehan",
         "Python","Java","C++","DSA",
         age=21,city="karachi",department="SE"
-        )
+        )"""
+        
+def calculator(a,b):
+    def add():
+         return a+b    
+    return add()
+    def multiply():
+        return a*b
+    return multiply
+
+result=calculator(5,4)
+print(result)
