@@ -89,7 +89,7 @@ student("Rehan",
         age=21,city="karachi",department="SE"
         )"""
         
-def calculator(a,b):
+"""def calculator(a,b):
     def add():
          return a+b    
     return add()
@@ -98,4 +98,13 @@ def calculator(a,b):
     return multiply
 
 result=calculator(5,4)
-print(result)
+print(result)"""
+
+students=[
+    ("Rehan",89),
+    ("Ali",78),
+    ("Ahmed",98)
+]
+
+students.sort(key=lambda students:students[1], reverse=True)
+print(students)
