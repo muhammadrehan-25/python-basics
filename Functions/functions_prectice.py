@@ -100,11 +100,50 @@ student("Rehan",
 result=calculator(5,4)
 print(result)"""
 
-students=[
+"""students=[
     ("Rehan",89),
     ("Ali",78),
     ("Ahmed",98)
 ]
 
 students.sort(key=lambda students:students[1], reverse=True)
-print(students)
+print(students)"""
+
+"""def add(a,b):
+    return a+b
+def multiply_by_two_numbers(number):
+    result=add(number,number)
+    return result
+print(multiply_by_two_numbers(10))
+
+
+def multiply(a,b):
+    return a*b
+def subtract(a,b):
+    return a-b
+def calculate(a,b):
+    multiplication=multiply(a,b)
+    subtration=subtract(a,b)
+    return multiplication,subtration
+multiply_result,subtrat_result=calculate(15,7)
+print(multiply_result)
+print(subtrat_result)"""
+    
+"""    
+def add(a,b):
+    return a+b
+def square(number):
+    return number*number
+def final_result(a,b):
+    result=add(a,b)
+    result=square(result)
+    return result
+result=final_result(2,3)
+print(result)"""
+
+def process_username(username):
+    username= username.strip()
+    username=username.lower()
+    return username
+result=process_username("    REHAN123     ")
+print(result)
