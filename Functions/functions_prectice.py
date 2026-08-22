@@ -141,9 +141,31 @@ def final_result(a,b):
 result=final_result(2,3)
 print(result)"""
 
-def process_username(username):
+"""def process_username(username):
     username= username.strip()
     username=username.lower()
     return username
 result=process_username("    REHAN123     ")
-print(result)
+print(result)"""
+
+"""def validate_username(username):
+    username=username.strip()
+    username=username.lower()
+    if len(username)>=5:
+        return True
+    else:
+        return False
+    return 
+result=validate_username("    REHan123   ")
+print(result)"""
+    
+"""def count_even(numbers):
+    count=0
+    for i in numbers:
+        if i % 2 == 0 :
+            count+=1
+    return count
+    
+result=count_even([12,34,54,43,55,56,59,87,80,35])
+print(result)"""
+         
