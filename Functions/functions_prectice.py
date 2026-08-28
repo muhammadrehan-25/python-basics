@@ -157,9 +157,9 @@ print(result)"""
         return False
     return 
 result=validate_username("    REHan123   ")
-print(result)"""
+print(result)
     
-"""def count_even(numbers):
+def count_even(numbers):
     count=0
     for i in numbers:
         if i % 2 == 0 :
@@ -169,3 +169,12 @@ print(result)"""
 result=count_even([12,34,54,43,55,56,59,87,80,35])
 print(result)"""
          
+"""def add(a,b=4):
+    Ali is a hardworker boy and  do work fo his family 
+    return a+b
+result=add(5)
+print(result)"""
+
+
+
+   

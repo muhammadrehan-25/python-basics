@@ -235,7 +235,25 @@ print("Total error fount =",count)"""
 
 #Challenge 5 — AI Token Report
 
-"""tokens = [120, 80, 0, 250, 40]
-for i in tokens:
-    if i>100:
-        print(i)"""
+# tokens = [120, 80, 0, 250, 40]
+# for i in tokens:
+#     if i>100:
+#         print(i)
+
+# for i in range(1,21):
+#     if i % 3 ==0:
+#         print(i)
+
+# n=57
+# for i in range(1,11):
+#    print(f" {n} * {i} = {n*i}")
+
+# for i in range(1,51):
+#     if i == 15:
+#         continue
+#     if i % 3 == 0:
+#         print(i)
+
+a=int(input("Enter First Number : "))
+b=int(input("Enter seconed number : "))
+
