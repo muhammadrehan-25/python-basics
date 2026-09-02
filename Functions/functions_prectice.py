@@ -175,6 +175,55 @@ print(result)"""
 result=add(5)
 print(result)"""
 
+# def square(number):
+#     return number*number
+# print(square(89))
 
 
-   
+# def check_number(number):
+#     if number >0:
+#         return "Positive Number"
+#     elif number < 0:
+#         return "Negative Number"
+#     else:
+#         return "Zero"
+    
+# print(check_number(0))
+
+
+# def reverse_string(text):
+#     return text[::-1]
+    
+# result = reverse_string("HELLO REHAN")
+# print(result)
+
+# def add(*numbers):
+#     total = 0
+#     for i in numbers:
+#         total+=i
+#     return total
+# result=add(2,4,6,8,12,54,77,35,32)
+# print(result)
+
+def info(**information):
+    for key,value in information.items():
+        print(key,":",value)
+    
+info(name="Rehan",age=21,department="Software")
+
+# def maxnumber(max_number):
+#     number = max_number[0]
+#     for i in max_number:
+#         if i > number:
+#             number=i
+#     return number
+# mylist = [2,5,7,8,3,6,0]
+# result=maxnumber(mylist)
+# print(result)
+        
+
+# def get_names(my_dict):
+#     return my_dict["name"]
+# user={"id":101,"name":"Rehan","department":"software"}
+# print(get_names(user))
+
